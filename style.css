@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: maroon;
+}
+
+.position{
+    height: 600px;
+    width: initial;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 20px;
+    background-color: cyan;
+}
+
+.romania{
+    margin: 5px;
+}
+
+#hrtg2{
+    position: absolute;
+    left: 200px;
+}
+#hrtg3{
+    position: absolute;
+    top: 400px;
+}
+.r_position{
+    height: 500px;
+    width: initial;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 20px;
+    background-color:darkcyan;
+}
+
+.romania2{
+    margin: 10px;
+
+}
+
+#hrtg5{
+    position: fixed;
+    left: 1000px;
+    top: 100px;
+}
+
+.hov{
+    height: 500px;
+    width: initial;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 20px;
+    background-color: cyan;
+}
+
+.btn1{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: crimson;
+    
+}
+.btn1:hover{
+    color: darkblue;
+}
+
+.btn2{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: olive;
+}
+
+.btn1:hover + .btn2{
+    background-color: blueviolet;
+}
+
+.btn3{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color:saddlebrown;
+}
+
+.btn1:hover + .btn2 + .btn3{
+    background-color: rgb(237, 232, 241);
+}
+
+.overflow{
+    height: 500px;
+    width: initial;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 20px;
+    background-color:darkcyan;
+}
+
+#property_hidden{
+    height: 200px;
+    width: 200px;
+    background-color: cornsilk;
+    margin: 20px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+#property_scroll{
+    height: 200px;
+    width: 200px;
+    background-color: cornsilk;
+    margin: 20px;
+    border: 3px solid black;
+    overflow: scroll;
+}
+
+#property_hidden, #property_scroll{
+    float: left;
+}
+.svg_image{
+    height: 500px;
+    width: initial;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 20px;
+    background-color: cyan;
+}
+
+.svg1{
+    height: 100px;
+    width: 100px;
+}
+
+
+.transform{
+    height: 500px;
+    width: initial;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 20px;
+    background-color:darkcyan;
+}
+
+.trans{
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+}
